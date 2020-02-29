@@ -52,6 +52,7 @@ export class ContextKeyService {
      * It should be implemented by an extension, e.g. by the monaco extension.
      */
     match(expression: string, context?: HTMLElement): boolean {
+        console.log('++++++++++++++ empty match ');
         return true;
     }
 
